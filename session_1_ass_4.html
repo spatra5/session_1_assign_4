@@ -1,0 +1,19 @@
+
+<!-- Write an IIFE that prints AGE, NAME and CITY of the Person.
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+		(function printPersonDetails(name, age, city) {
+			var details = "Name : " + name + "<br/>";
+			details+= "Age : " + age + "<br/>";
+			details+= "City : " + city;
+			document.write(details);
+		})("Adesh", "25", "Bangalore");
+	</script>
+</head>
+<body>
+</body>
+</html>
